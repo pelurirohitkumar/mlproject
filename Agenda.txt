@@ -1,0 +1,15 @@
+Agenda 
+
+1- set up the git {repository}
+ a) new environment 
+ b) setup.py
+ c)requrirements.txt
+
+* anaconda init to cmd command is :- conda init cmd.exe
+* next create environment :- conda create -p venv python==3.8 -y
+* active venv using :- conda activate venv/
+* next clone git hub respority 
+- python setup.py is responsible in creating my machine learning application as a package
+- mlproject.egg-info :- this basically indicates that your package is basically getting installed. we can use this packages anywhere if you probably deploy it in pypi 
+
+2 - src folder (main folder) and build the package

@@ -13,3 +13,16 @@ Agenda
 - mlproject.egg-info :- this basically indicates that your package is basically getting installed. we can use this packages anywhere if you probably deploy it in pypi 
 
 2 - src folder (main folder) and build the package
+
+*components file is used for data injection it means we will be reading a datasets from  a database,or it can be someother file locations or different databases .so initially we need to read the database .so reading data from database is called data injection (components - modules for training )
+
+* logger :- it is for the purpose that any execution that probably happens , we should be able to  log all those information , the execution , everything in some files so that well be able to track.
+
+after writing logging and exception run using 
+ - in terminal type :- python src/logger.py
+
+
+** for eda and model training we need to work in jupyter notebook
+- write all required packages in requirements.txt
+- then in terminal in venev - pip install -r requirements.txt 
+- to run a particular file in pyhton we ue command in termial :- python src/components/data_ingestion.py
